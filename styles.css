@@ -17,6 +17,8 @@ body {
     width: 100%;
     font-family: 'Lato', sans-serif;
     font-size: 1em;
+    min-height: 100vh;
+    hyphens: auto;
 }
 
 h2, h3 {
@@ -287,10 +289,6 @@ footer p {
 }
 
 @media only screen and (max-width: 420px) {
-    body {
-        font-size: 0.5em;
-    }
-
     h2 {
         font-size: 0.8rem;
     }
